@@ -1349,8 +1349,6 @@ ul{
     fill: #FFFFFF;
 }
 
-
-
 /*
 .check-text::before {
     content: '';
@@ -1430,10 +1428,7 @@ ul{
     outline: 0;
 } 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> b91c6fe39963833497549b244f4f4c0eaca16079
 /*.five-fing::after {
     content: '';
     display: block;
@@ -1460,10 +1455,7 @@ ul{
      color: #FFFFFF;
      cursor: pointer;    /* курсор pointer */
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> b91c6fe39963833497549b244f4f4c0eaca16079
 
 .button-portfolio {
     font-family: 'Roboto';
