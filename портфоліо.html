@@ -20,15 +20,15 @@
                 <ul class="site-nav">    <!-- ul список-->
                     <div class="hookup">
                         <li><a href="./index.html"
-                            class="block">Студія</a></li>  <!-- li елемент списку-->
+                            class="block hookup">Студія</a></li>  <!-- li елемент списку-->
                     </div>
                     <div class="hookup">
                         <li><a href="./портфоліо.html"
-                            class="list-html-label current">Портфоліо</a></li>
+                            class="list-html-label hookup current">Портфоліо</a></li>
                     </div>
                     <div class="hookup">
                         <li><a href="#блок2"
-                            class="block">Контакти</a></li>
+                            class="block hookup">Контакти</a></li>
                     </div>
                 </ul>
             </nav>
@@ -54,16 +54,19 @@
     </header>
 
     <main>
-        <section class="section-portfolio">            <!-- section-portfolio--> 
+                     <!------- section-portfolio -------> 
+        <section class="section-portfolio">           
             <div class="container-portfolio">
                 <ul class="button-roster">
-                    <li><button type="button" class="button-head rectangle current five-fing">Усі</button></li>
+                    <li><button type="button" class="button-head rectangle five-fing">Усі</button></li>
                     <li><button type="button" class="button-portfolio rectangle">Веб-сайти</button></li>
                     <li><button type="button" class="button-portfolio rectangle">Додатки</button></li>
                     <li><button type="button" class="button-portfolio rectangle">Дизайн</button></li>
                     <li><button type="button" class="button-portfolio rectangle">Маркетинг</button></li>
                 </ul>
-                <ul class="foto-wrap">      <!-- foto-wrap -->
+
+                      <!-------- foto-wrap --------->      
+                <ul class="foto-wrap">      
                     <li class="foto-item">
                         <div class="top-text-wrap">
                             <img src="./img/project1.jpg" alt="project1" width="370" height="294">
@@ -195,7 +198,8 @@
         </section>
     </main>
 
-    <footer class="footer-section date">    <!-- footer-->
+                <!--------------- footer ---------------->
+    <footer class="footer-section date">    
         <div class="footer-envelope">
             <div class="address-container">
                 <a href="./index.html" class="logo-footer">
@@ -216,38 +220,66 @@
                 </ul>
                 </address>
             </div>
+
+                <!------   links-container   ------->
             <div class="links-container">
                 <h3 class="header-links come">ПРИЄДНУЙТЕСЬ</h3>
                 <ul class="links-list">
-                    <li class="links-item glob">
-                        <a href="" class="links-cos-link row">
+                    <li class="links-item">
+                        <a href="" class="links-cos-link">
                             <svg class="links-cos-icon" width="20" height="20">
                             <use href="./img/icon.svg#icon-instagram"></use>
                             </svg>                                 
                         </a>
                     </li>
-                    <li class="links-item glob">
-                        <a href="" class="links-cos-link blue-link row">
+                    <li class="links-item">
+                        <a href="" class="links-cos-link">
                             <svg class="links-cos-icon" width="20" height="20">
                             <use href="./img/icon.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="links-item glob">
-                        <a href="" class="links-cos-link row">
+                    <li class="links-item">
+                        <a href="" class="links-cos-link">
                             <svg class="links-cos-icon" width="20" height="20">
                             <use href="./img/icon.svg#icon-facebook"></use>
                             </svg>                                 
                         </a>
                     </li>
-                    <li class="links-item glob">
-                        <a href="" class="links-cos-link row">
+                    <li class="links-item">
+                        <a href="" class="links-cos-link">
                             <svg class="links-cos-icon" width="20" height="20">
                             <use href="./img/icon.svg#icon-linkedin"></use>
                             </svg>                                 
                         </a>
                     </li>
                 </ul>
+            </div>
+
+                <!-------  mailing ------->
+                <div class="mailing">
+                <h3 class="maining-header maining-come">Підпишіться на розсилку</h3>
+                <div class="mailing-container">
+                    <div class="mailing-field">
+                        <label for="user-name-mailing" class="input-label-sss">
+                            <div class="mailing-wrap">
+                                <input type="text-mailing" 
+                                name="user-name-mailing" 
+                                class="modal-input-sss" 
+                                placeholder="E-mail"
+                                maxlength="10"
+                                required
+                                id="user-name-mailing"
+                                />
+                            </div>
+                        </label>
+                    </div>
+                    <button class="button-mailing" type="button">Підписатися
+                        <svg class="links-mailing" width="24" height="24">
+                        <use href="./img/icon.svg#icon-icon-send"></use>
+                        </svg>
+                    </button>     
+                </div>
             </div>
         </div>
     </footer>
